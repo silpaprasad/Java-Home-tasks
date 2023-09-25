@@ -54,6 +54,7 @@ the square root of the number being tested.
 Turn in your rewritten code. 
 
 **Problem 3: Object Basics** 
+
 Readings: Object Basics and Simple Data Objects, The Life Cycle of an Object,Characters and 
 Strings 
 In the following code the soliloquy is analyzed character by character to determine the vowels, 
