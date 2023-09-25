@@ -32,6 +32,7 @@ The diameter of the Sun is approximately 865,000 miles. The diameter of the Eart
 approximately 7600 miles. Use the methods in the class Math to calculate, 
 
 (a) the volume of the Earth in cubic miles 
+
 (b) the volume of the Sun in cubic miles 
 (c) the ratio of the volume of the Sun to the volume of the Earth 
 
