@@ -38,3 +38,61 @@ sphere is given by the formula 4 pi r^3/3 where r is the radius.
 Run the code you have written, and turn in both your code and the output of the program.
 The output should say something like: 
 The volume of the Earth is X cubic miles, the volume of the sun is Y cubic miles, and the ratio of the volume of the Sun to the volume of the Earth is Z. 
+
+**Problem 2: Language Basics**
+
+Readings: Language Basics : Control Flow Statements 
+
+Create a new program that has the following features. Download source (JAVA). 
+(a) Uses labeled continue instead of break. 
+(b) Does not require the isPrime variable. 
+(c) When testing whether an integer is prime, it is sufficient to try and divide by integers up to 
+the square root of the number being tested. 
+Turn in your rewritten code. 
+
+**Problem 3: Object Basics** 
+Readings: Object Basics and Simple Data Objects, The Life Cycle of an Object,Characters and 
+Strings 
+In the following code the soliloquy is analyzed character by character to determine the vowels, 
+spaces and letters used. Fill in the code that computes the number of spaces, vowels, and 
+consonants. Download source (JAVA). 
+public class StringCharacters
+{
+public static void main(String[] args)
+{
+String text = "To be or not to be, that is the question;"
++"Whether `tis nobler in the mind to suffer" 
++" the slings and arrows of outrageous fortune,"
++" or to take arms against a sea of troubles,"
++" and by opposing end them?";
+int spaces = 0,
+vowels = 0,
+letters = 0;
+//YOUR CODE HERE
+System.out.println("The text contained vowels: " + vowels + "\n"
++ 
+consonants " + (letters - vowels) + "\n"+ spaces: " + spaces);
+}
+} 
+
+Run the program once you have written your code. Turn in your code, and the output 
+produced when the code runs. 
+
+**Problem 4: Object Basics**
+ 
+Readings: Object Basics and Simple Data Objects 
+Numbers 
+Arrays 
+Write a program that sets up a String variable with the soliloquy in the previous question, 
+extracts the words from the text and sorts them into alphabetical order. You may define 
+'words' however you wish (within reason), but provide your definition with your solution. You
+can use the sorting method of your choice. The simplest one is the bubble sort, which works 
+as follows: 
+• Starting with the first element in the array compare successive elements (0 and 1, 1 
+and 2, 2 and 3, and so on). 
+• If the first element of any pair is greater than the second, interchange the two 
+elements. 
+• Repeat the process for the whole array until no interchanges are necessary. The array 
+elements will now be in ascending order. 
+• Run the program once you have written your code. Turn in your code, and the output 
+produced when the code runs.
