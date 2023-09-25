@@ -57,9 +57,11 @@ Turn in your rewritten code.
 
 Readings: Object Basics and Simple Data Objects, The Life Cycle of an Object,Characters and 
 Strings 
+
 In the following code the soliloquy is analyzed character by character to determine the vowels, 
 spaces and letters used. Fill in the code that computes the number of spaces, vowels, and 
 consonants. Download source (JAVA). 
+
 public class StringCharacters
 {
 public static void main(String[] args)
@@ -87,11 +89,13 @@ produced when the code runs.
 Readings: Object Basics and Simple Data Objects 
 Numbers 
 Arrays 
+
 Write a program that sets up a String variable with the soliloquy in the previous question, 
 extracts the words from the text and sorts them into alphabetical order. You may define 
 'words' however you wish (within reason), but provide your definition with your solution. You
 can use the sorting method of your choice. The simplest one is the bubble sort, which works 
 as follows: 
+
 • Starting with the first element in the array compare successive elements (0 and 1, 1 
 and 2, 2 and 3, and so on). 
 • If the first element of any pair is greater than the second, interchange the two 
